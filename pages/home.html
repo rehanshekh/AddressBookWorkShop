@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
     <title>Employee Payroll App</title>
 	<script defer src="../js/new_payroll_form.js"></script>
+    <script src="../js/home.js"></script>
 </head>
 <body>
     <header class="header-content header">
@@ -23,38 +24,18 @@
 				<div class="emp-detail-text">
 					Person Details <div class="emp-count">10</div>
 				</div>
-				<a href="../pages/home.html" class="add-button">
+				<a href="../pages/person_form.html" class="add-button">
 					<img src="../assets/add-24px.svg"  alt="">Add Person
 				</a>
 			</div>
 			<div class="table-main">
 				<table id = "table-display" class="table">
-					<tr>
-						<th>Fullname</th>
-						<th>Phone Number</th>
-                        <th>Address</th>
-						<th>City</th>
-						<th>State</th>
-						<th>Zip Code</th>
-                        <th></th>
-						
-					</tr>
-                    <tr>
-                        <td>Rehan Shaikh</td>
-                        <td>+91 7738565536</td>
-                        <td>Garden Avenue, Mumbra</td>
-                        <td>Maharashtra</td>
-                        <td>Thane</td>
-                        <td>400612</td>
-                        <td>
-                            <img id="1" onclick="remove(this)" alt="delete"
-                            src="../assets/delete-black-18dp.svg">
-                            <img id="1" alt="edit" onclick="update(this)"
-                            src="../assets/create-black-18dp.svg">
-                        </td>
-                    </tr>
+					
 				</table>
 			</div>
 		</div>
-</body>
+<script src="../js/home.js"></script>
+<script src="../js/site_properties.js"></script>
+<script src="../js/person_form.js"></script>
+    </body>
 </html>
